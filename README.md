@@ -4,7 +4,7 @@
 В этом репозитории содержится умный ассистент для подбора вина:
 
 ### Умный ассистент: [wine-assistant.ipynb](wine-assistant.ipynb)
-* Использование языковых моделей в Yandex Cloud на базе Responses API и [OpenAI SDK](https://github.com/openai/openai-python) (в ранних версиях - на базе [Yandex Cloud ML SDK](https://github.com/yandex-cloud/yandex-cloud-ml-sdk))
+* Использование языковых моделей в Yandex Cloud на базе Responses API
 * Простейшие ассистенты для поддержания контекста диалога
 * Понятие [Function Calling](https://yandex.cloud/ru/docs/foundation-models/concepts/yandexgpt/function-call) в генеративных моделях и его использование с ассистентами
 * Вызов удалённых функций на основе Model Context Protocol
@@ -20,6 +20,6 @@
 * Клонировать репозиторий (на своём ноутбуке или в проекте Yandex Datasphere)
 * Для авторизации в облаке:
   - Создать сервисный аккаунт, имеющий права `ai.editor`
-  - Получить для этого аккаунта API-ключ и установить в соответствующее поле в файле [.env] `folder_id`, `api_key`
-* Установить секрет `tg_token` в файл [.env], если вы планируете тестировать телеграм-бота
+  - Получить для этого аккаунта API-ключ и установить в соответствующее поле в файле [.env](.env) `folder_id`, `api_key`
+* Установить секрет `tg_token` в файл [.env](.env), если вы планируете тестировать телеграм-бота
 * Открыть соответствующий ноутбук [wine-assistant.ipynb](wine-assistant.ipynb) (Создание ассистента)
