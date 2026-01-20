@@ -24,3 +24,7 @@
   - Получить для этого аккаунта API-ключ и установить в соответствующее поле в файле [.env](.env) `folder_id`, `api_key`
 * Установить секрет `tg_token` в файл [.env](.env), если вы планируете тестировать телеграм-бота
 * Открыть соответствующий ноутбук [wine-assistant.ipynb](wine-assistant.ipynb) (Создание ассистента) и выполнить все ячейки
+
+## Ссылка на скринкаст демо работы бота
+
+https://drive.google.com/file/d/11d3RaJJMFGPSC4YZBwrV5TlXJZuW7mfm/view?usp=sharing
